@@ -18,7 +18,7 @@ load_dotenv()
 
 READKEY=getenv('READKEY')
 TOKEN=getenv('TOKEN')
-MBTI_TEXT_ANALYSIS_SITE=r'https://www.uclassify.com/browse/g4mes543/myers-briggs-type-indicator-text-analyzer?input=Text'
+
 user_agent_rotator = UserAgent(
     software_names=[SoftwareName.CHROME.value],
     operating_systems=[OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value],
